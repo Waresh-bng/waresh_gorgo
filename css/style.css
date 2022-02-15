@@ -1,0 +1,197 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{text-decoration: none;}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+html{
+	scroll-behavior: smooth;
+}
+/*************** Header section css ****************/
+.header{
+	width: 100%;
+	padding: 24px 0px;
+}
+.continer{
+	width: 1140px;
+	margin: auto;
+}
+.nevbar{
+	display: flex;
+	justify-content: space-between;
+}
+.menubar ul{
+	display: inline-block;
+	margin-left: 32px;
+}
+.menubar ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 16px;
+}
+.logo{
+	vertical-align: middle;
+}
+.menubar ul li a{
+	color: #292640;
+	font-size: 16px;
+	font-weight: 500;
+}
+.menubar ul li a:hover{
+	color: #ff6162;
+}
+.manu-btn button{
+	background: #ff6162;
+	color: white;
+	padding: 16px 28px;
+	border: none;
+	font-size: 16px;
+	border-radius: 4px;
+	font-family: 'Poppins',sans-serif;
+}
+.manu-btn button:hover{
+	background: #292640;
+	cursor: pointer;
+}
+.banner{
+	width: 100%;
+	padding: 140px 0px;
+}
+.banner-row{
+	display: flex;
+}
+.b-left, .b-right{
+	flex-basis: 50%;
+}
+.b-left h1{
+	font-size: 46px;
+    line-height: 1.3;
+    color: #222221;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+}
+.b-left p{
+	font-size: 16px;
+	color: #a2a4a5;
+	margin-right: 70px;
+	font-weight: 400;
+	margin-bottom: 32px;
+} 
+.b-left a i{
+	height: 40px;
+	width: 40px;
+	color: #a2a4a5;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 100%;
+	border: 2px solid #a2a4a5;
+}
+.b-left a i:hover{
+	background-color: #ff6162;
+	border-color: #ff6162;
+	color: white;
+}
+.section-title{
+	text-align: center;
+
+}
+.section-title h2{
+	font-size: 42px;
+	font-weight: 600;
+	color: #292640;
+}
+.section-title p{
+	font-size: 16px;
+	color: #a2a4a5;
+	font-weight: 300;
+	margin-bottom: 32px;
+	font-style: italic;
+}
+.project-gallery{
+	display: flex;
+	justify-content: space-evenly;
+}
+.p-item{
+	flex-basis: 25%;
+	text-align: center;
+}
+.p-item{
+	margin-bottom: 16px;
+	box-shadow: 10px 10px 10px 0px rgb(212, 212, 212 / 30%);
+
+}
+.line{
+	margin: 60px auto;
+	height: 80px;
+	background: #a2a4a5;
+	width: 4px;
+}
+/*************** Features section css ****************/
+.features{
+	width: 100%;
+	padding-bottom: 80px;
+}
+.f-item-row{
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+.f-item{
+	background: #f5f5f5;
+	margin: 16px;
+	padding: 32px 16px;
+	text-align: center;
+	border-radius: 6px;
+	transition: 0.5s;
+}
+.f-item:hover{
+	background: #ff6162;
+	transition: 0.5s;
+}
+.f-item:hover h4, .f-item:hover p{
+	color: white;
+}
+.f-item i{
+	height: 60px;
+	width: 60px;
+	background: #ffffff;
+	color: #ff6162;
+	font-size: 28px;
+	text-align: center;
+	line-height: 60px;
+	border-radius: 100%;
+}
+.f-item h4{
+	font-size: 18px;
+	color: #292640;
+	margin: 16px 0;
+}
+.f-item p{
+	font-size: 15px;
+	color: #757575;
+}
+/*footer section start here css*/
+.footer{
+	width: 100%;
+	background-color: #292640;
+	padding: 80px 0px;
+}
+.f-content{
+	text-align: center;
+}
+.f-content h1{
+	color: white;
+	font-size: 56px;
+	margin-bottom: 32px;
+	line-height: 1.3;
+}
+.f-content .manu-btn button{
+	margin-bottom: 32px;
+}
+.f-content .manu-btn button:hover{
+	background-color: white;
+	color: #292640;
+
+}
+#demo
